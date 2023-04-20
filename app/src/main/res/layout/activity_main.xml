@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo1"
+    tools:context=".ACTIVITIES.MainActivity" >
+
+    <Button
+        android:id="@+id/botonJugar"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+        android:layout_width="126dp"
+        android:layout_height="68dp"
+        android:background="@drawable/borde_redondo"
+        android:backgroundTint="#000000"
+        android:fontFamily="@font/cabin_sketch"
+        android:onClick="jugar"
+        android:text="@string/etiq_jugar"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.192"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.921" />
+
+    <Button
+        android:id="@+id/botonJugar2"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+        android:layout_width="126dp"
+        android:layout_height="68dp"
+        android:background="@drawable/borde_redondo"
+        android:backgroundTint="#020202"
+        android:fontFamily="@font/cabin_sketch"
+        android:onClick="ranking"
+        android:text="@string/etiq_ranking"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.396"
+        app:layout_constraintStart_toEndOf="@+id/botonJugar"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.921" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="138dp"
+        android:layout_height="164dp"
+        android:fontFamily="@font/cabin_sketch"
+        android:text="@string/etiq_titulo"
+        android:textAllCaps="false"
+        android:textColor="#FFFDFD"
+        android:textSize="36sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/botonJugar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.128"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.096" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

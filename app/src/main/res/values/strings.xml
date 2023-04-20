@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Hundir La Flota</string>
+    <string name="etiq_jugar">JUGAR</string>
+    <string name="etiq_ranking">RANKING</string>
+    <string name="etiq_titulo">HUNDIR LA FLOTA</string>
+    <string name="texto">MODOS DE JUEGO</string>
+    <string name="etiq_radioButton1">Tablero Pequeño</string>
+    <string name="etiq_radioButton2">Tablero Grande</string>
+    <string name="etiq_boton2J">2 JUGADORES</string>
+    <string name="etiq_boton1J">1 JUGADOR</string>
+    <string name="etiq_siguiente">SIGUIENTE</string>
+    <string name="etiq_colocar">COLOCAR BARCOS</string>
+    <string name="etiq_turnoJ1">JUGADOR 1</string>
+    <string name="etiq_deshacer">DESHACER</string>
+    <string name="etiq_turnoJ2">JUGADOR 2</string>
+    <string name="mal_opciones">Selecciona un modo de juego.</string>
+    <string name="etiq_empezar">EMPEZAR</string>
+    <string name="etiq_puntos">Puntos</string>
+    <string name="etiq_ganador">GANADOR:</string>
+    <string name="etiq_nopuntuaciones">No hay puntuaciones guardadas</string>
+    <string name="etiq_nombre">Nombre</string>
+    <string name="etiq_vs2">JUGADOR 1 vs JUGADOR 2</string>
+    <string name="etiq_vsM">JUGADOR vs IA</string>
+</resources>
